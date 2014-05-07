@@ -1,5 +1,6 @@
 module Vortrag where
 
+-- für Listenfunktionen wie sort
 import Data.List
 
 -- Folie 3
