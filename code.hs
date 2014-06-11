@@ -4,7 +4,7 @@ module Vortrag where
 import Data.List
 
 -- Folie 3
-sortLines T = unlines (sort (lines t))
+sortLines t = unlines (sort (lines t))
 sortLines' t = (unlines . sort . lines) t
 sortLines'' = unlines . sort . lines
 
