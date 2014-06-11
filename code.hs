@@ -1,10 +1,10 @@
 module Vortrag where
 
--- für Listenfunktionen wie sort
+-- Für Listenfunktionen Wie Sort
 import Data.List
 
 -- Folie 3
-sortLines t = unlines (sort (lines t))
+sortLines T = unlines (sort (lines t))
 sortLines' t = (unlines . sort . lines) t
 sortLines'' = unlines . sort . lines
 
